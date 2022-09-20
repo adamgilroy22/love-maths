@@ -82,7 +82,7 @@ function calculateCorrectAnswer() {
     } else if (operator === "-") {
         return [operand1 - operand2, "subtract"];
     } else if (operator === "÷") {
-
+        return [operand1/operand2, "divide"];
     }
     else {
         alert(`Unimplemented operator ${operator}`);
